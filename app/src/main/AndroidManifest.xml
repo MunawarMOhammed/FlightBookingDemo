@@ -13,6 +13,9 @@
         android:theme="@style/Theme.FlightBookingDemo"
         tools:targetApi="31">
         <activity
+            android:name=".Search_Acitivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashLogo"
             android:exported="true">
             <intent-filter>

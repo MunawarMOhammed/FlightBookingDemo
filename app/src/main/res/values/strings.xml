@@ -7,4 +7,7 @@
     <string name="multi">Multi</string>
     <string name="round_trip">Round-Trip</string>
     <string name="one_way">One-Way</string>
+    <string name="no_of_passengers">No. of Passengers</string>
+    <string name="return_date">return date</string>
+    <string name="derparture_date">derparture date</string>
 </resources>
