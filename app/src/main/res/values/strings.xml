@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">E-Flight</string>
+    <string name="toolbar_title_search_flights">Search Flights</string>
+    <string name="to">To</string>
+    <string name="from">From</string>
+    <string name="btn_search_flight">Search Flight</string>
+    <string name="multi">Multi</string>
+    <string name="round_trip">Round-Trip</string>
+    <string name="one_way">One-Way</string>
 </resources>
