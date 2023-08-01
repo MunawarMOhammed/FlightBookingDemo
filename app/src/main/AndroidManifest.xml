@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FlightBookingDemo"
+        tools:overrideLibrary="com.android.car.ui"
         tools:targetApi="31">
+        <activity
+            android:name=".AvailableFlightsActivity"
+            android:exported="false" />
         <activity
             android:name=".Search_Acitivity"
             android:exported="false" />
@@ -26,11 +30,9 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
